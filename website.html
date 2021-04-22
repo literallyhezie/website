@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seamless</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>                                                                             
+	<!-- <div class="info">
+		<h1 class="title">seamless</h1>
+	</div> -->
+	
+    <div class="container" id="blur">
+        <div class="card">
+			<div class="wrapper">
+
+				<a href="#" onclick="toggle1()">
+					<div class="button">
+					<!-- <div class="icon"><i class="fas fa-home"></i></div> -->
+					<span>home</span>
+					</div>
+				</a>
+	
+				<a href="#" onclick="toggle()">
+					<div class="button">
+					<!-- <div class="icon"><i class="fas fa-cube"></i></div> -->
+					<span>products</span>
+					</div>
+				</a>
+
+				<a href="#" onclick="toggle()">
+					<div class="button">
+					<!-- <div class="icon"><i class="fas fa-file-contract"></i></div> -->
+					<span>services</span>
+					</div>
+				</a>
+
+				<a href="#" onclick="toggle()">
+					<div class="button">
+					<!-- <div class="icon"><i class="far fa-comments"></i></div> -->
+					<span>quotes</span>
+					</div>
+				</a>
+
+				<a href="#" onclick="toggle()">
+					<div class="button">
+					<!-- <div class="icon"><i class="fas fa-address-book"></i></div> -->
+					<span>contact</span>
+					</div>
+				</a>
+
+				<a href="#" onclick="toggle()">
+					<div class="button">
+					<!-- <div class="icon"><i class="fas fa-info-circle"></i></div> -->
+					<span>about</span>
+					</div>
+					
+				</a>
+				
+
+			</div>
+        </div>
+		
+		<div class="info">
+			<h1 class="title">seamless</h1>
+		</div>
+	</div>
+
+<div class="popup" id="popup">
+		<h1>the 's' word!</h1>
+		<a href="#" onclick="toggle1()">Close</a>
+</div>
+
+<div class="popup" id="popup">
+	<h1>bye!</h1>
+	<a href="#" onclick="toggle()">Close</a>
+</div>
+
+
+
+
+<script type="text/javascript">
+		function toggle1(){
+			var blur = document.getElementById('blur');
+			blur.classList.toggle('active');
+			var popup = document.getElementById('popup');
+			popup.classList.toggle('active');
+		}
+</script>
+
+<script type="text/javascript">
+	
+	function toggle(){
+		var blur = document.getElementById('blur');
+		blur.classList.toggle('active');
+		var popup = document.getElementById('popup');
+		popup.classList.toggle('active');
+	}
+</script>
+
+
+
+
+
+</body>
+</html>
