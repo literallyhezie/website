@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   perspective: 1000px;
-  background-color: #fff;
+  background-color: #1da1f2;
 }
 .container {
   width: auto;
@@ -34,7 +34,7 @@ body {
 .info h1 {
   font-size: 3rem;
   margin: 5rem;
-  color: #1da1f2;
+  color: #fff;
 }
 
 .wrapper .button {

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Smooth Scroller Plugin Demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="operation final.css">
+
+<style>
+    
+    
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #ecf0f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+nav a.active {
+    background:yellow;
+    color: black;
+}
+
+#main-menu {
+    position: fixed;
+    text-align: center;
+    margin-left: 35px;
+}
+
+#section1 {
+    background-image: url(on.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+     
+    
+}
+
+#section2 {
+    background-image: url(five.jpg);
+    background-size: cover;
+     background-attachment: fixed;
+    background-position: center;
+     
+}
+
+#section3 {
+     background-image: url(two.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+     
+}
+
+#section4 {
+    background-image: url(QvEW7D_t20_mxpVwg.jpg);
+    background-attachment: fixed;
+}
+
+#section5 {
+    background-image: url(jaLQeQ_t20_QQv6N6.jpg);
+    background-size: cover;
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 100px;
+}   
+    
+    p{
+        width: 40%;
+    }
+    
+    h1{
+        font-weight: 400;
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+<nav id="main-menu">
+  <ul>
+    <li> <a class="obss-scroller" href="#section1">Home</a> </li>
+    <li> <a class="obss-scroller" href="#section2">About us</a> </li>
+    <li> <a class="obss-scroller" href="#section3">Testimonails</a> </li>
+    <li> <a class="obss-scroller" href="#section4">Our Teams</a> </li>
+    <li> <a class="obss-scroller" href="#section5">Contact</a> </li>
+  </ul>
+</nav>
+<section id="section1"> 
+<h1>Smooth Scroll with Parallax</h1>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam perspiciatis ratione iusto autem, facere aspernatur eos eligendi illo voluptate itaque perferendis harum debitis rem earum. Recusandae, consequuntur repellendus mollitia maxime excepturi, deleniti autem, incidunt pariatur perspiciatis numquam, quidem praesentium at.
+</p>
+
+</section>
+<section id="section2">
+
+ <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur corporis odit recusandae, officia quis! Rem sapiente, veritatis deserunt amet esse reiciendis dolorum enim, in, repellat magnam consequatur itaque facere. 
+    </p>
+ 
+ </section>
+<section id="section3">   
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam perspiciatis ratione iusto autem, facere aspernatur eos eligendi illo voluptate itaque perferendis harum debitis rem earum. Recusandae, consequuntur repellendus mollitia maxime excepturi, deleniti autem, incidunt pariatur perspiciatis numquam, quidem praesentium at.
+</p>
+
+
+</section>
+<section id="section4">
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam perspiciatis ratione iusto autem, facere aspernatur eos eligendi illo voluptate itaque perferendis harum debitis rem earum. Recusandae, consequuntur repellendus mollitia maxime excepturi, deleniti autem, incidunt pariatur perspiciatis numquam, quidem praesentium at.
+</p>
+
+ </section>
+<section id="section5"> 
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam perspiciatis ratione iusto autem, facere aspernatur eos eligendi illo voluptate itaque perferendis harum debitis rem earum. Recusandae, consequuntur repellendus mollitia maxime excepturi, deleniti autem, incidunt pariatur perspiciatis numquam, quidem praesentium at.
+</p>
+
+ 
+   </section>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="../src/smooth-scroller.js"></script> 
+<script>
+    
+$(document).ready(function(){
+
+    $("section").height($(window).height());
+    onWindowRezise();
+
+    $(".obss-scroller").smoothScroller({
+        duration: 1000,
+        activeClass: "active"
+    });
+});
+
+var onWindowRezise = function() {
+    $(window).resize(function(evt){
+        $("section").height($(window).height());
+    });
+}    
+    
+</script>
+ 
+</body>
+</html>
