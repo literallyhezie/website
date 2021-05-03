@@ -105,9 +105,9 @@ body {
   margin-top: 1rem;
   width: 35%;
   padding: 1rem 0rem;
-  background: #fff;
+  background: #bbdbf7;
   border: none;
-  color: #bbdbf7;
+  color: #fff;
   cursor: pointer;
   border-radius: 50px;
   font-size: medium;
@@ -120,9 +120,9 @@ body {
   margin-top: 1rem;
   width: 35%;
   padding: 1rem 0rem;
-  background: #bbdbf7;
+  background: #fff;
   border: none;
-  color: #fff;
+  color: #bbdbf7;
   font-size: medium;
   font-weight: bold;
   transition: all 0.75s ease-in;
