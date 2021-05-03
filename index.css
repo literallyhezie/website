@@ -68,6 +68,7 @@ body {
   font-size: medium;
   font-weight: bold;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05), 0px 0px 50px rgba(0, 0, 0, 0.05);
+  transition: all 0.75s ease-in;
 }
 
 .purchase button:hover {
@@ -76,5 +77,10 @@ body {
   background: #fff;
   border: none;
   color: #bbdbf7;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: medium;
+  font-weight: bold;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05), 0px 0px 50px rgba(0, 0, 0, 0.05);
   transition: all 0.75s ease-in;
 }
