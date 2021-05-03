@@ -58,7 +58,7 @@ body {
   /* transition: all 0.75s ease-out; */
 }
 .purchase button {
-  width: 23rem;
+  width: 35%;
   padding: 1rem 0rem;
   background: #bbdbf7;
   border: none;
@@ -72,7 +72,7 @@ body {
 }
 
 .purchase button:hover {
-  width: 25rem;
+  width: 35%;
   padding: 1rem 0rem;
   background: #fff;
   border: none;
