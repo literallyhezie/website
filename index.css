@@ -76,4 +76,5 @@ body {
   background: #fff;
   border: none;
   color: #bbdbf7;
+  transition: all 0.75s ease-in;
 }

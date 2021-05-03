@@ -8,6 +8,10 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+h1 {
+  margin-left: 3rem;
+  color: #bbdbf7;
+}
 
 .card {
   margin: 100px auto 0;
