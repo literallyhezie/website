@@ -135,7 +135,7 @@ h1 {
 .back button {
   margin-top: 1rem;
   margin-left: 3rem;
-  width: 10%;
+  width: 10rem;
   padding: 1rem 0rem;
   background: #bbdbf7;
   border: none;
@@ -149,7 +149,7 @@ h1 {
 }
 
 .back button:hover {
-  width: 12%;
+  width: 12rem;
   padding: 1rem 0rem;
   background: #fff;
   border: none;
